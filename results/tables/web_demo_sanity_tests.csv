@@ -1,0 +1,4 @@
+scenario,age,sex,education,MMSE,FAQ,score_1y,score_2y,score_3y,score_5y
+low-risk sanity,68,Female,16,30,0,0.1,0.8,3.4,14.2
+reference sanity,72,Female,16,26,6,5.3,32.3,58.1,92.6
+high-risk sanity,80,Male,12,23,12,18.8,53.8,72.0,95.7

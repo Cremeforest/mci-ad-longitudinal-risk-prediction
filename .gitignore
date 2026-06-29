@@ -1,0 +1,44 @@
+# Raw / restricted datasets
+data/
+data_raw/
+**/NACC_investigator.csv
+**/ADNI*.csv
+**/NACC*.csv
+
+# Full experimental workflow scripts are kept locally, not in the clean showcase repo
+scripts/
+
+# Results: ignore all generated outputs by default, keep only selected showcase tables
+results/*
+!results/tables/
+!results/tables/**
+
+# Large intermediate arrays / tensors
+*.npy
+*.npz
+*.ckpt
+*.pth
+
+# PyTorch checkpoints: ignore by default, but allow the public demo checkpoint
+*.pt
+!models/default_low_overlap_demo_mmse_faq.pt
+
+# Invalid / quarantined outputs
+results/reporting/48_nacc_compatible_common_feature_models_INVALID_NAN_DO_NOT_USE/
+results/models/48_nacc_compatible_common_feature_models_INVALID_NAN_DO_NOT_USE/
+
+# Old / not-ready web configs
+results/web_demo_assets/research_demo_v1/web_preprocessing_config_NOT_READY.json
+results/web_demo_assets/research_demo_v1/web_runtime_config.json
+
+# Python / cache
+__pycache__/
+*/__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+

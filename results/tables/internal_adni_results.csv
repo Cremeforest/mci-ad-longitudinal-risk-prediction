@@ -1,0 +1,13 @@
+model,horizon,AUROC
+Full dynamic model,1y,0.911
+Full dynamic model,2y,0.902
+Full dynamic model,3y,0.921
+Full dynamic model,5y,0.939
+Reduced-overlap model,1y,0.891
+Reduced-overlap model,2y,0.880
+Reduced-overlap model,3y,0.891
+Reduced-overlap model,5y,0.922
+Demographics-only model,1y,0.630
+Demographics-only model,2y,0.643
+Demographics-only model,3y,0.665
+Demographics-only model,5y,0.651
